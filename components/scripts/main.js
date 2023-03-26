@@ -6,7 +6,7 @@ function loadJS(url, callback) {
 	document.body.appendChild(script);
 }
 
-loadJS('starfield.min.js', () => {
+loadJS('/components/scripts/starfield.min.js', () => {
 	let range = [0, window.innerHeight * 2];
 
 	const starfield = new WebGLBackground({

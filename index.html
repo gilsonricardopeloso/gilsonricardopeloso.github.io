@@ -5,8 +5,14 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#000000" />
 	<title>Gilson Peloso</title>
-	<link rel="stylesheet" href="main.css" />
+	<link rel="stylesheet" href="/components/styles/main.css" />
+
+	<!-- Reference the manifest file; is must for PWA. -->
+	<link rel="manifest" href="/manifest.json" />
+	<!-- Reference the icons -->
+	<link rel="shorcut icon" href="/components/images/favicon.png" type="image/x-icon" />
 </head>
 
 <body>
@@ -108,7 +114,8 @@
 			</div>
 			</div>
 	</main>
-	<script src="main.js" async defer></script>
+	<script src="/components/scripts/main.js" async defer></script>
+	<script src="/components/scripts/pwa-handler.js"></script>
 </body>
 
 </html>
